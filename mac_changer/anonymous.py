@@ -40,10 +40,10 @@ options = get_options()
 
 
 
+if options.interface:
+    current_mac = get_current_mac(options.interface)
 
-current_mac = get_current_mac(options.interface)
-
-print(current_mac)
+    print(current_mac)
 
 
 
